@@ -28,7 +28,7 @@
 
 ### Дашборд
 
-![Дашборд](/dashboard.png)
+![Дашборд](reports/dashboard.png)
 
 ---
 
