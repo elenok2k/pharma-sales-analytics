@@ -315,16 +315,5 @@ try:
 except Exception as e:
     print(f"⚠️ Ошибка: {e}")
 
-print(f"""
-📌 КЛЮЧЕВЫЕ ВЫВОДЫ:
-1. Год: 2025 (все данные)
-2. Общая выручка: {total_revenue:,.0f} руб.
-3. Всего продано: {df['amount'].sum():,.0f} упаковок
-4. Средняя цена: {df['Цена'].mean():.2f} руб.
-5. Уникальных препаратов: {df['product_id'].nunique()}
-6. Регионов: {df['branch'].nunique()}
-7. Доля новинок (до 6 мес.): {new_share:.1f}%
-8. Прогноз Q1 2026: {forecast_base:,.0f} руб.
-   Диапазон: {forecast_pessimistic:,.0f} - {forecast_optimistic:,.0f} руб.
-""")
+
 

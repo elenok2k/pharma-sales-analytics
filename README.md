@@ -34,7 +34,7 @@
 
 ## 🛠 Технологии
 
-- **Python 3.11+**
+- **Python 3.14**
 - Pandas — обработка данных
 - Matplotlib / Seaborn — визуализация
 - OpenPyXL — выгрузка в Excel
